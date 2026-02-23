@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<!--Adriana Marquez 2/22/2026-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width= device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Meshuggah bagels</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url("Images/bagels.jpg");
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            background-color: #efe5d6;
+            border-bottom: 3px solid #c9b59b;
+        }
+
+        .fontsize{
+        font-size: 20px;
+
+        }
+
+        .signature{
+            font-family: cursive;
+            font-size: 40px;
+        }
+
+
+
+
+        /* HEADER */
+        header {
+            text-align: center;
+            /* centers logo */
+            padding: 10px 0;
+            /* reduce vertical space */
+        }
+
+        header img {
+            width: 400px;
+            /*  control logo size */
+            height: auto;
+            /* keeps proportions correct */
+            box-shadow: #222;
+        }
+
+
+        /* NAV */
+        nav {
+            background: #c86b2b;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 18px 0;
+            text-decoration: none;
+            color: #fff;
+            font-weight: 600;
+            font-size: 14px;
+            letter-spacing: 1px;
+            transition: 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: black;
+        }
+
+        /* MAIN SECTION */
+        section.main-content {
+            padding: 50px;
+        }
+
+        /* GRID */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        /* ARTICLE CARDS */
+        article {
+            background: #ffffff;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            padding: 20px;
+            text-align: center;
+        }
+
+        article:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        article img {
+            width: 100%;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+
+        article h2 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #222;
+        }
+
+        article p {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        /* BUTTON STYLE */
+        .highlight {
+            display: inline-block;
+            padding: 12px 25px;
+            background: linear-gradient(45deg, #ff7a18, #ffb347);
+            color: #fff;
+            font-weight: 600;
+            border-radius: 30px;
+            margin-top: 10px;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        .highlight:hover {
+            opacity: 0.85;
+        }
+
+        
+
+        /* INFO SECTION */
+        section.info-section {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            padding: 50px;
+            background: #f7f7f7;
+        }
+
+        aside {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        aside h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #222;
+        }
+
+        aside p {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #c86b2b;
+            color: #fff;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="https://www.meshuggahbagels.com/"  style="color: white">https://www.meshuggahbagels.com/</a>
+    <header>
+        <img src="Images/logo 2.png" alt="Meshuggah logo">
+    </header>
+    <div class="wrapper">
+
+        <header>
+            <h1>Welcome</h1>
+
+
+            <nav>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">OUR STORY</a></li>
+                    <li><a href="#">LOCATIONS</a></li>
+                    <li><a href="#">MENU</a></li>
+                    <li><a href="#">ORDER ONLINE</a></li>
+                    <li><a href="#">JOBS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <section class="main-content">
+                <div class="grid">
+
+                    <article>
+                        <img src="Images/Cherries Jubilee 2_PNG.avif" alt="Cherry Jubilee Bagel Spread">
+                        <h2>Cherries Jubilee</h2>
+                        <p><strong>It's Back! Cherries Jubilee.</strong></p>
+                        <p>Jubilant, creamy, and slightly dramatic.</p>
+                        <div class="highlight">Order Now</div>
+                    </article>
+
+                    <article>
+                        <h2>Our Mission</h2>
+                        <p class="fontsize">Here at Meshuggah Bagels, authenticity is our passion! We use a secret mix of Artisan flour,
+                            yeast, malt, sugar, and salt. Painstakingly perfected to the point that even a<strong> NEW YORKER</strong>
+                            would
+                            swear they were biting into a piece of home..</p><br>
+                        <p class="signature">Pete and Janna</p>
+
+                        <img src="Images/Love.png" alt="Love">
+                        
+                    </article>
+
+                    <article>
+                        <img src="Images/MeshuggahBagels0065_JPG.avif" alt="Bagel with Lox">
+                        <h2>Order E-Gift Cards Here:</h2>
+                        <div class="highlight">Order Now</div>
+                    </article>
+
+                    <article>
+                        <img src="Images/IMG_7319.avif" alt="Serrano Jalapeno Bagel">
+                        <h2>Serrano Jalapeño</h2>
+                        <p>Now on our menu!</p>
+                    </article>
+
+                    <article>
+                        <img src="Images/MeshuggahBagels0025_JPG.avif" alt="Everything Bagel">
+                        <h2>Everything Bagel</h2>
+                        <p>And Much More!</p>
+                    </article>
+
+                    <article>
+                        <img src="Images/Veggie Schmear.avif" alt="Fresh Cream Cheese Spread">
+                        <h2>Schmears Made Fresh</h2>
+                        <p>In-House Daily</p>
+                    </article>
+
+                </div>
+            </section>
+
+            <section class="info-section">
+
+                <aside>
+                    <h3>Locations</h3>
+                    <p>39th Street, Kansas City, MO 64106</p>
+                    <p>1208 W. 39th Street, Kansas City, MO 64111</p>
+                    <p>7096 W. 105th Street, Overland Park, KS 66212</p>
+                    <p>8600 NE 85th Street, Kansas City, MO 64157</p>
+
+                </aside>
+
+                <aside>
+                    <h3>Hours</h3>
+                    <p>Closed Monday<br>Tue–Fri 7AM–2PM<br>Sat & Sun 8AM–2PM</p>
+                </aside>
+
+                <aside>
+                    <h3>Socialize</h3>
+                    <p>Follow us on social media for updates and specials.</p>
+                     <a href="#" class="fa fa-facebook"></a>
+                     <a href="#" class="fa fa-twitter"></a>
+                     <a href="#" class="fa fa-instagram"></a>
+                     
+                     
+                </aside>
+
+                <aside>
+                    <h3>Kosher Locations</h3>
+                    <p>39th Street & Overland Park (Only).</p>
+                   
+
+                  
+                </aside>
+              
+
+            </section>
+
+            <footer>
+                © 2026 Meshuggah Bagels | All Rights Reserved
+            </footer>
+
+    </div>
+
+
+</body>
+
+</html>
